@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Clientes</title>
+    <title>Organização de Voluntários - Início</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Clientes</h1>
         <nav>
-            <ul>
-                <li><a href="Index.HTML">Inicio</a></li>
-                <li><a href="Projeto.HTML">Projeto</a></li>
-                <li><a href="Cadastro.HTML">Cadastro</a></li>
+            <div class="logo">&#128153; Voluntários</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="navMenu">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="projeto.html">Projetos</a></li>
+                <li><a href="cadastro.html">Seja Voluntário</a></li>
+
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-           <h2>Empresa</h2>
-           <p>Somos uma empresa voltada para a otimização de processos.</p>
-           <img src="iamgens/empresa.jpg" alt="Imagem da Empresa">
-        </section>
-        <section>
-            <h2>O que promovemos?</h2>
-            <p>Atáves do conhecimento, realizamos as melhorias necessárias</p>
-        </section>
-        <section>
-            <h2>Contatos</h2>
-            <address>
-                <p>Local: Rua Marechal, 01 - Centro São Paulo/SP</p>
-                <p>Tel: +55 11 987654321</p>
-                <p>Email:contato@empresa.com</p>
-            </address>
-        </section>
-    </main>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transforme Vidas com Voluntariado</h1>
+            <p>Somos uma organização dedicada à inclusão social e ao atendimento de famílias. Junte-se a nós e faça a diferença!</p>
+            <a href="cadastro.html" class="btn-primary">Quero Ser Voluntário</a>
+        </div>
+    </section>
+
+<<<<<<< HEAD
+    <!-- Quem Somos -->
+    <section class="about">
+        <h2>Quem Somos</h2>
+        <p>Somos uma organização sem fins lucrativos que atua no atendimento de famílias em inclusão social, promovendo dignidade, esperança e oportunidades para quem mais precisa.</p>
+        
+=======
+   
+    <section class="about">
+        <h2>Quem Somos</h2>
+        <p>Somos uma organização sem fins lucrativos que atua no atendimento de famílias em inclusão social, promovendo dignidade, esperança e oportunidades para quem mais precisa.</p>
+>>>>>>> b7c609e2247b6f04e4f8a15fb94d1f0d3355f90b
+    </section>  
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Empresa</p>
+        <p>&copy; 2025 Organização de Voluntários. Todos os direitos reservados.</p>
+     <p>Feito com &#10084;&#65039; para transformar vidas</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
